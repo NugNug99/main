@@ -14,3 +14,4 @@ wget https://github.com/NugNug99/main/raw/refs/heads/main/users
 
 chmod +x users
 
+rm -rf xmain
