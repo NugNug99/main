@@ -2,7 +2,9 @@
 
 pkg update && pkg upgrade -y
 
-apt install python clang libxml2 libxslt libllvm binutils ldd wget curl jq -y
+pkg install python -y 
+
+apt install clang libxml2 libxslt libllvm binutils ldd wget curl jq -y
 
 pip install requests httpx httpx[http2] beautifulsoup4 
 
